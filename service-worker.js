@@ -1,2 +1,1 @@
-// v4 is Safari-first. No aggressive offline cache, preventing stale app versions.
 self.addEventListener('install',()=>self.skipWaiting());self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
